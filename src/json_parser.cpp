@@ -37,7 +37,7 @@
 #line 38 "json_parser.cc"
 
 
-#include "json_parser.hh"
+#include "json_parser.h"
 
 /* User implementation prologue.  */
 

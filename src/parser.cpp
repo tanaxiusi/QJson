@@ -20,7 +20,7 @@
 
 #include "parser.h"
 #include "parser_p.h"
-#include "json_parser.hh"
+#include "json_parser.h"
 #include "json_scanner.h"
 
 #include <QtCore/QBuffer>

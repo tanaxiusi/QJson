@@ -31,7 +31,7 @@
    version 2.2 of Bison.  */
 
 /**
- ** \file stack.hh
+ ** \file stack.h
  ** Define the yy::stack class.
  */
 
@@ -42,8 +42,8 @@
 
 
 namespace yy {
-/* Line 34 of stack.hh  */
-#line 47 "stack.hh"
+/* Line 34 of stack.h  */
+#line 47 "stack.h"
   template <class T, class S = std::deque<T> >
   class stack
   {
@@ -127,7 +127,7 @@ namespace yy {
   };
 
 } // yy
-/* Line 116 of stack.hh  */
-#line 132 "stack.hh"
+/* Line 116 of stack.h  */
+#line 132 "stack.h"
 
 #endif /* !YY_YY_STACK_HH_INCLUDED  */

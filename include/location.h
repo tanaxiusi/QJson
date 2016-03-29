@@ -31,19 +31,19 @@
    version 2.2 of Bison.  */
 
 /**
- ** \file location.hh
+ ** \file location.h
  ** Define the yy::location class.
  */
 
 #ifndef YY_YY_LOCATION_HH_INCLUDED
 # define YY_YY_LOCATION_HH_INCLUDED
 
-# include "position.hh"
+# include "position.h"
 
 
 namespace yy {
 /* Line 166 of location.cc  */
-#line 47 "location.hh"
+#line 47 "location.h"
 
   /// Abstract a location.
   class location
@@ -176,6 +176,6 @@ namespace yy {
 
 } // yy
 /* Line 296 of location.cc  */
-#line 180 "location.hh"
+#line 180 "location.h"
 
 #endif /* !YY_YY_LOCATION_HH_INCLUDED  */

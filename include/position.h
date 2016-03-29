@@ -31,7 +31,7 @@
    version 2.2 of Bison.  */
 
 /**
- ** \file position.hh
+ ** \file position.h
  ** Define the yy::position class.
  */
 
@@ -53,7 +53,7 @@
 
 namespace yy {
 /* Line 36 of location.cc  */
-#line 57 "position.hh"
+#line 57 "position.h"
   /// Abstract a position.
   class position
   {
@@ -168,5 +168,5 @@ namespace yy {
 
 } // yy
 /* Line 148 of location.cc  */
-#line 172 "position.hh"
+#line 172 "position.h"
 #endif /* !YY_YY_POSITION_HH_INCLUDED  */

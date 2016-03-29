@@ -18,11 +18,9 @@
  * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301, USA.
  */
-#include "json_scanner.cc"
-
 #include "qjson_debug.h"
 #include "json_scanner.h"
-#include "json_parser.hh"
+#include "json_parser.h"
 
 #include <ctype.h>
 

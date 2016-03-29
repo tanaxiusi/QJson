@@ -31,7 +31,7 @@
    version 2.2 of Bison.  */
 
 /**
- ** \file json_parser.hh
+ ** \file json_parser.h
  ** Define the yy::parser class.
  */
 
@@ -68,13 +68,13 @@
 
 
 /* Line 33 of lalr1.cc  */
-#line 72 "json_parser.hh"
+#line 72 "json_parser.h"
 
 
 #include <string>
 #include <iostream>
-#include "stack.hh"
-#include "location.hh"
+#include "stack.h"
+#include "location.h"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG
@@ -84,7 +84,7 @@
 
 namespace yy {
 /* Line 33 of lalr1.cc  */
-#line 88 "json_parser.hh"
+#line 88 "json_parser.h"
 
   /// A Bison parser.
   class json_parser
@@ -293,7 +293,7 @@ namespace yy {
 
 } // yy
 /* Line 33 of lalr1.cc  */
-#line 297 "json_parser.hh"
+#line 297 "json_parser.h"
 
 
 
